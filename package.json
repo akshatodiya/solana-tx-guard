@@ -1,0 +1,36 @@
+{
+  "name": "solana-tx-guard",
+  "version": "0.2.0",
+  "description": "Pre-sign transaction safety guardrails for AI agents on Solana. Simulate, detect drains, and enforce policy before any transaction is signed.",
+  "author": "Anon1one",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "solana",
+    "ai-agent",
+    "transaction",
+    "security",
+    "guardrail",
+    "simulation",
+    "drain-protection"
+  ],
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "txguard": "./src/cli.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts",
+    "guard": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.2",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
