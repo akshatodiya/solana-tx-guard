@@ -2,7 +2,7 @@
   "name": "solana-tx-guard",
   "version": "0.2.0",
   "description": "Pre-sign transaction safety guardrails for AI agents on Solana. Simulate, detect drains, and enforce policy before any transaction is signed.",
-  "author": "Anon1one",
+  "author": "Akshat Odiya",
   "type": "module",
   "license": "MIT",
   "keywords": [

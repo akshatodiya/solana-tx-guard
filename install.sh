@@ -16,7 +16,7 @@
 #
 set -euo pipefail
 
-REPO="Anon1one/solana-tx-guard"
+REPO="akshatodiya/solana-tx-guard"
 SKILL_NAME="solana-tx-guard"
 BRANCH="main"
 

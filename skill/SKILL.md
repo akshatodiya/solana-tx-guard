@@ -151,7 +151,7 @@ Treat the guard like security code: write transactions that *should* be blocked 
 ## Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Anon1one/solana-tx-guard/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/akshatodiya/solana-tx-guard/main/install.sh | bash
 ```
 
 Or as a library: `npm install solana-tx-guard`. See the repo README for both paths.

@@ -41,7 +41,7 @@ By default every transfer is at least WARN. For agents that must act alone, set 
 ### As a kit skill (Claude Code / Codex agents)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Anon1one/solana-tx-guard/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/akshatodiya/solana-tx-guard/main/install.sh | bash
 ```
 
 Installs the `skill/` into your project's `.claude/skills/solana-tx-guard/` (or `~/.claude/skills/` with `--global`) and registers it. Run from a project root, or pass `--dir <path>`.
@@ -141,4 +141,4 @@ This reduces risk; it does not eliminate it. Static analysis is fail-closed and 
 
 ## License
 
-MIT © 2026 Anon1one
+MIT © 2026 Akshat Odiya
